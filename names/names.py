@@ -31,7 +31,8 @@ for n in names_1:
 for n2 in names_2:
     bsTree.insert(n2)
     # if statement here name1 and name2 are the same add it to duplicates list
-
+    if bsTree.contains(n2):
+        duplicates.append(n2)
 
 
 # for name_1 in names_1:
